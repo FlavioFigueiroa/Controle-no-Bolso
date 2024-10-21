@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Controle-no-Bolso/static/css/main.9d0208b8.css",
+    "main.js": "/Controle-no-Bolso/static/js/main.9367c1fa.js",
+    "static/media/home.png": "/Controle-no-Bolso/static/media/home.b92ea783468b19fbefd9.png",
+    "static/media/Logo horizontal2.png": "/Controle-no-Bolso/static/media/Logo horizontal2.09335ba5766ed76374f9.png",
+    "static/media/loading.svg": "/Controle-no-Bolso/static/media/loading.0d7499eb615c62e741a58e7ab99e4ab0.svg",
+    "index.html": "/Controle-no-Bolso/index.html",
+    "main.9d0208b8.css.map": "/Controle-no-Bolso/static/css/main.9d0208b8.css.map",
+    "main.9367c1fa.js.map": "/Controle-no-Bolso/static/js/main.9367c1fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d0208b8.css",
+    "static/js/main.9367c1fa.js"
+  ]
+}
