@@ -2,7 +2,7 @@
   "despesas": [
     {
       "id": "090a",
-      "descricao": "Celular",
+      "descricao": "Celular Iphone",
       "data": "2000-07-10",
       "valor": "5000",
       "category": {
@@ -29,33 +29,23 @@
         "id": "4",
         "name": "Despesa"
       }
-    },
-    {
-      "id": "6f01",
-      "descricao": "Celular",
-      "data": "2024-09-20",
-      "valor": "4000",
-      "category": {
-        "id": "4",
-        "name": "Despesa"
-      }
     }
   ],
   "categories": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Receita"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Recorrente"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Imprevisto"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Despesa"
     }
   ]

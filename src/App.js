@@ -5,6 +5,7 @@ import Despesas from './components/pages/Despesas';
 import MetasFinanceiras from './components/pages/MetasFinanceiras';
 import Infos from './components/pages/Infos';
 import DespesasCriadas from './components/pages/DespesasCriadas';
+import Despesa from './components/pages/Despesa'
 
 import Container from './components/layout/Container';
 import Navbar from './components/layout/Navbar';
@@ -17,11 +18,12 @@ function App() {
       <Container customClass='min-height'>
         <Routes>
             <Route exact path='/' element={<Home/>} />
-            <Route exact path='/dashboard' element={<Dashboard/>} />
-            <Route exact path='/despesas' element={<Despesas/>} />
-            <Route exact path='/metas-financeiras' element={<MetasFinanceiras/>} />
-            <Route exact path='/infos' element={<Infos/>} />
-            <Route exact path='/despesasCriadas' element={<DespesasCriadas/>} />
+            <Route path='/dashboard' element={<Dashboard/>} />
+            <Route path='/despesas' element={<Despesas/>} />
+            <Route path='/metas-financeiras' element={<MetasFinanceiras/>} />
+            <Route path='/infos' element={<Infos/>} />
+            <Route path='/despesasCriadas' element={<DespesasCriadas/>} />
+            <Route path='/despesa/:id' element={<Despesa/>}/>
         </Routes>
       </Container>
         <Footer />
