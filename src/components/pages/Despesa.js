@@ -37,6 +37,7 @@ function Despesa(){
     }
 
     function editPost(despesa){
+        setMessage('')
         //buget validation
         fetch(`http://localhost:5000/despesas/${id}`, {
             method: 'PATCH',
