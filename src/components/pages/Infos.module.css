@@ -1,0 +1,51 @@
+.educacao_financeira {
+    padding: 20px;
+}
+
+.conteudo {
+    display: flex;
+    gap: 20px;
+}
+
+/* Lista de vídeos (coluna esquerda) */
+.lista_videos {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card_video {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card_video:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Player de vídeo (coluna direita) */
+.player_video {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.player_video iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+}
