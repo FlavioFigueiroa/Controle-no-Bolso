@@ -1,0 +1,57 @@
+.metas_financeiras {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.input_form {
+    margin-bottom: 20px;
+}
+
+.input_form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.input_form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.resultado {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.resultado h3 {
+    margin-bottom: 10px;
+}
+
+.resultado p {
+    margin: 5px 0;
+}
+
+.concluida {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.botaoAcoes {
+    display: flex;
+    gap: 10px;
+}

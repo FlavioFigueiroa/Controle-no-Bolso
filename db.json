@@ -58,5 +58,14 @@
       "id": "4",
       "name": "Despesa"
     }
+  ],
+  "metas": [
+    {
+      "id": "92eb",
+      "nomeMeta": "tablet",
+      "valorMeta": "5000",
+      "dataConclusao": "2025-12-10",
+      "valorMensal": "384.62"
+    }
   ]
 }
