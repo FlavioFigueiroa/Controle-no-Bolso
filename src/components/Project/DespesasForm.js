@@ -9,7 +9,7 @@ function DespesasForm({ handleSubmit, btnText, despesaData }){
     const [despesa, setDespesa] = useState(despesaData || {})
 
     useEffect(() => {
-        fetch('http://localhost:5000/categories',{
+        fetch('https://json-cnb.vercel.app/categories',{
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',

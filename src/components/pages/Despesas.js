@@ -9,7 +9,7 @@ function Despesas(){
 
     function createPost(despesa){
 
-        fetch('http://localhost:5000/despesas', {
+        fetch('https://json-cnb.vercel.app/despesas', {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json',

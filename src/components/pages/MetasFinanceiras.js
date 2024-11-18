@@ -22,7 +22,7 @@ function MetasCriadas() {
 
     const fetchMetas = () => {
         setTimeout(() => {
-            fetch('http://localhost:5000/metas', {
+            fetch('https://json-cnb.vercel.app/metas', {
                 method: 'GET',
                 headers: { 'Content-Type': 'application/json' },
             })
@@ -61,7 +61,7 @@ function MetasCriadas() {
 
     const addMeta = (e) => {
         e.preventDefault();
-        fetch('http://localhost:5000/metas', {
+        fetch('https://json-cnb.vercel.app/metas', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(newMeta),
@@ -76,7 +76,7 @@ function MetasCriadas() {
     };
 
     const removeMeta = (id) => {
-        fetch(`http://localhost:5000/metas/${id}`, {
+        fetch(`https://json-cnb.vercel.app/metas/${id}`, {
             method: 'DELETE',
             headers: { 'Content-Type': 'application/json' },
         })

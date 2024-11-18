@@ -21,7 +21,7 @@ function DespesasCriadas(){
 
     useEffect(() => {
         setTimeout(() => {
-            fetch('http://localhost:5000/despesas',{
+            fetch('https://json-cnb.vercel.app/despesas',{
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -38,7 +38,7 @@ function DespesasCriadas(){
     }, [])
 
     function removeDespesa(id){
-        fetch(`http://localhost:5000/despesas/${id}`, {
+        fetch(`https://json-cnb.vercel.app/despesas/${id}`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json'

@@ -34,7 +34,7 @@ function Dashboard() {
   const [periodo, setPeriodo] = useState("mensal");
 
   useEffect(() => {
-    fetch("http://localhost:5000/despesas", {
+    fetch("https://json-cnb.vercel.app/despesas", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -44,7 +44,7 @@ function Dashboard() {
       .then((data) => setDespesas(data))
       .catch((error) => console.error("Erro ao buscar despesas:", error));
 
-    fetch("http://localhost:5000/metas", {
+    fetch("https://json-cnb.vercel.app/metas", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

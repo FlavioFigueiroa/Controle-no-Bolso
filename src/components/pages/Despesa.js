@@ -18,7 +18,7 @@ function Despesa(){
 
     useEffect(() => {
         setTimeout(() => {
-            fetch(`http://localhost:5000/despesas/${id}`, {
+            fetch(`https://json-cnb.vercel.app/despesas/${id}`, {
                 method: 'GET',
                 headers:{
                     'Content-Type': 'application/json',
@@ -39,7 +39,7 @@ function Despesa(){
     function editPost(despesa){
         setMessage('')
         //buget validation
-        fetch(`http://localhost:5000/despesas/${id}`, {
+        fetch(`https://json-cnb.vercel.app/despesas/${id}`, {
             method: 'PATCH',
             headers: {
                'Content-Type': 'application/json' 
