@@ -1,4 +1,26 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "firstName": "João",
+      "lastName": "Silva",
+      "cpf": "123.456.789-00",
+      "dob": "1990-01-01",
+      "email": "joao@example.com",
+      "monthlyIncome": 3000,
+      "password": "senha123"
+    },
+    {
+      "id": "2c51",
+      "firstName": "Flavio",
+      "lastName": "de Figueiroa",
+      "cpf": "49383212896",
+      "dob": "2000-07-10",
+      "email": "flavio.figueiroats@gmail.com",
+      "monthlyIncome": 2000,
+      "password": "teste123"
+    }
+  ],
   "despesas": [
     {
       "id": "090a",
@@ -38,6 +60,46 @@
       "category": {
         "id": "4",
         "name": "Despesa"
+      }
+    },
+    {
+      "id": "3da5",
+      "descricao": "teste1",
+      "data": "2024-02-12",
+      "valor": "2999",
+      "category": {
+        "id": "1",
+        "name": "Receita"
+      }
+    },
+    {
+      "id": "23eb",
+      "descricao": "teste2",
+      "data": "2024-05-16",
+      "valor": "5000",
+      "category": {
+        "id": "3",
+        "name": "Imprevisto"
+      }
+    },
+    {
+      "id": "6ff7",
+      "descricao": "Teste3",
+      "data": "2024-11-10",
+      "valor": "5000",
+      "category": {
+        "id": "4",
+        "name": "Despesa"
+      }
+    },
+    {
+      "id": "2e74",
+      "descricao": "teste3",
+      "data": "2024-11-11",
+      "valor": "3000",
+      "category": {
+        "id": "1",
+        "name": "Receita"
       }
     }
   ],

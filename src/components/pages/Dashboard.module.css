@@ -1,0 +1,56 @@
+.dashboard {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+.periodoSelect {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.periodoSelect select {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.indicadores {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.indicador {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+  width: 30%;
+  border-radius: 8px;
+}
+
+.indicador h3 {
+  margin-bottom: 10px;
+}
+
+.graficos {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.relatorio {
+    background-color: #e3f2fd;
+    border: 1px solid #90caf9;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1565c0;
+  }
+  

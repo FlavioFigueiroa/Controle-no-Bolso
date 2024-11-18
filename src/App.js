@@ -6,6 +6,8 @@ import MetasFinanceiras from './components/pages/MetasFinanceiras';
 import Infos from './components/pages/Infos';
 import DespesasCriadas from './components/pages/DespesasCriadas';
 import Despesa from './components/pages/Despesa'
+import Cadastro from './components/pages/Cadastro'
+import Login from './components/pages/Login'
 
 import Container from './components/layout/Container';
 import Navbar from './components/layout/Navbar';
@@ -24,6 +26,8 @@ function App() {
             <Route path='/infos' element={<Infos/>} />
             <Route path='/despesasCriadas' element={<DespesasCriadas/>} />
             <Route path='/despesa/:id' element={<Despesa/>}/>
+            <Route path='/cadastro' element={<Cadastro/>}/>
+            <Route path='/login' element={<Login/>}/>
         </Routes>
       </Container>
         <Footer />

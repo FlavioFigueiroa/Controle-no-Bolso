@@ -1,0 +1,85 @@
+/* Centraliza a página inteira (tanto vertical quanto horizontal) */
+.pageContainer {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vh;
+}
+
+/* Estilos para o formulário de cadastro */
+.formContainer {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px; /* Limita a largura da caixa de cadastro */
+    box-sizing: border-box;
+}
+
+/* Estilos do título do formulário */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilos para os inputs */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="password"] {
+    margin-bottom: 15px;
+}
+
+/* Estilos para o botão de cadastro */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para a mensagem de erro/sucesso */
+p {
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+p.success {
+    color: #5bc0de;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 600px) {
+    .formContainer {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    input, button {
+        font-size: 14px;
+    }
+}

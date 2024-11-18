@@ -23,3 +23,37 @@
 .item a:hover {
     color: #4880FF;
 }
+
+.authLinks {
+    display: flex;
+    gap: 15px;
+    margin-left: auto; /* Garante que os botões fiquem no lado direito */
+    align-items: center; /* Alinha verticalmente os botões */
+}
+
+.authLinks a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center; /* Centraliza o texto dentro dos botões */
+}
+
+.loginButton {
+    background-color: #4CAF50; /* Cor de fundo do botão Entrar */
+}
+
+.registerButton {
+    background-color: #008CBA; /* Cor de fundo do botão Cadastro */
+}
+
+.authLinks a:hover {
+    opacity: 0.8; /* Efeito ao passar o mouse */
+}
+
+.navbar img {
+    margin-right: 2em; /* Dá um espaçamento à direita da logo */
+    height: 120px; /* Ajusta a altura da logo para manter uma boa proporção */
+}
